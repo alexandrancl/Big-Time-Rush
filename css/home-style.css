@@ -1,0 +1,81 @@
+.content-container{
+    width: 90%;
+}
+.songs-title{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+.songs-title img{
+    margin-left: 15px;
+}
+.slider-container{
+    width: 100%;
+    height: 20em;
+    overflow: auto;
+}
+.slider-item{
+    width: 9.5em;
+    height: 9.5em;
+    padding-top: 0.5em;
+    position: relative;
+}
+.slider-item > img{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    align-items: center;
+}
+.play{
+    width: 1em;
+    height: 1em;
+    background-color: none;
+}
+.slider-title{
+    color: white;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.album-title{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+.album-title img{
+    margin-left: 15px;
+}
+
+.conocieron-title{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+.conocieron-title img{
+    margin-left: 15px;
+}
+.conocieron-container p{
+    color: white;
+}
+.chicos-title{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+.chicos-title img{
+    margin-left: 15px;
+}
+.chicos-container ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}

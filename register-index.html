@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/register-style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="bg-container">
+            <header class="logo-container">
+                <img src="icons/logo.svg" alt="">
+            </header>
+            <div class="form-container">
+                <form action="#">
+                    <div class="input-container">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="usuario">Usuario</label>
+                        <input type="email" name="usuario" 
+                            placeholder="Debe terminar en '@btr'" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="contrasenia">Contraseña</label>
+                        <input type="password" name="contrasenia" required>
+                    </div>   
+                </form>
+                <button class="btn-registrarse" type="submit"> 
+                    <a href="home-index.html">Registrarse</a>
+                </button>
+                <a href="login-index.html">Regresar.</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

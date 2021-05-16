@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.main-container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 95%;
+}
+.main-menu ul li a img{
+    border-radius: 50%;
+    width: 10em;
+}
+.logo-container img{
+    width: 4em;
+}
+.list-menu{
+    background-color: white;
+    position: fixed;
+    top: 3.45em;
+    left: 0px;
+    height: 85vh;
+    width: 60%;
+    border-radius: 0px 30px 30px 0px;
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.perfil{
+    margin-top: 30px;
+    margin-bottom: 4.5em;
+}
+.list-menu li{
+    list-style: none;
+    margin-bottom: 1.85em;
+}
+.list-menu li a{
+    display: block;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+.active-menu{
+    transform: translateX(0%);
+}
+
+@media screen and (min-width:720px) and (orientation:landscape)
+{
+    .list-menu{
+        width: 15%;
+        border-radius: 0px;
+        height: 100%;
+    }
+}
